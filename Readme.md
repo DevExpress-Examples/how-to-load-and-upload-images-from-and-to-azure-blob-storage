@@ -15,6 +15,6 @@ This example fetches images asynchronously, and uses the [UnboundSource](https:/
 
 ![Alt text](grid.png)
 
-The [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) context menu is used to upload images to **Azure Blob Storage**.
+The modified [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) context menu allows users to upload currently viewed images to **Azure Blob Storage**.
 
 ![alt text](menu.png)
