@@ -1,6 +1,6 @@
 # How to load and upload images from/to Azure Blob Storage 
 
-This example illustrates how to load SVG images from [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and upload local images there back.
+This example illustrates how to load SVG images from [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and upload local images to it.
 
 To get started, you need to install the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs) NuGet package and follow the steps from the [Quickstart: Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet#download-blobs) Microsoft topic.
 
@@ -8,7 +8,7 @@ We fetch images asynchronously and add them to  [GridControl](https://docs.devex
 
 ![Alt text](grid.png)
 
-By extending a context menu of [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit), we also illustrate how to upload the editor current image to **Azure Blob Storage**.
+By extending a context menu of [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit), we also illustrate how to upload the editor's current image to **Azure Blob Storage**.
 
 ![alt text](menu.png)
 
