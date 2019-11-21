@@ -1,17 +1,20 @@
-# How to load and upload images from/to Azure Blob Storage 
+# How to download and upload images from (to) the Azure Blob Storage
 
-This example illustrates how to load SVG images from [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and upload local images to it.
+This example illustrates how to solve two separate tasks:
 
-To get started, you need to install the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs) NuGet package and follow the steps from the [Quickstart: Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet#download-blobs) Microsoft topic.
+* download images from the [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and use it in your WinForms app;
+* modify the [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) to be able to upload local images to the [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and use it in your WinForms app.
 
-We fetch images asynchronously and add them to  [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) by using [UnboundSource](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.UnboundSource) that allows you to dynamically add columns and rows.
+To run this example:
+
+* install the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs) NuGet package and follow the steps from the [Quickstart: Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet#download-blobs) Microsoft topic;
+* specify your connection settings in the **Main** method:
+    ![alt text](code.png)
+
+This example fetches images asynchronously, and uses the [UnboundSource](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.UnboundSource) component to send these loaded images into the [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl).
 
 ![Alt text](grid.png)
 
-By extending a context menu of [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit), we also illustrate how to upload the editor's current image to **Azure Blob Storage**.
+The [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) context menu is used to upload images to **Azure Blob Storage**.
 
 ![alt text](menu.png)
-
-To run this example, it is also necessary to specify your connection settings in the **Main** method:
-
-![alt text](code.png)
