@@ -3,7 +3,7 @@
 This example illustrates how to solve two separate tasks:
 
 * download images from the [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and use them in your WinForms app;
-* modify the [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) to be able to upload local images to the [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and use them in your WinForms app.
+* modify the [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) to be able to upload local images to the [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/).
 
 To run this example:
 
