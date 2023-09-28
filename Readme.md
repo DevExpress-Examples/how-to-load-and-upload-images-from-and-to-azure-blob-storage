@@ -3,23 +3,25 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T834743)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to download and upload images from (to) the Azure Blob Storage
 
-This example illustrates how to solve two separate tasks:
+# WinForms PictureEdit - Download and upload images from (to) Azure Blob Storage
 
-* download images from the [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and use them in your WinForms app;
-* modify the [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) to be able to upload local images to the [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/).
+This example demonstrates how to do the following:
 
-To run this example:
+* Download images from [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/) and use them in a Windows Forms application.
+* Customize the [WinForms PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) to allow users to upload local images to [Azure Blob Storage](https://azure.microsoft.com/en-us/services/storage/blobs/).
 
-* install the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs) NuGet package and follow the steps from the [Quickstart: Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet#download-blobs) Microsoft topic;
-* specify your connection settings in the **Main** method:
-    ![alt text](code.png)
+Follow the steps below to run the example:
 
-This example fetches images asynchronously, and uses the [UnboundSource](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.UnboundSource) component to send these loaded images into the [GridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl).
+* Install the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs) NuGet package and follow step-by-step instructions from [Quickstart: Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet#download-blobs).
+* Specify connection settings in the `Main` method:
 
-![Alt text](grid.png)
+  ![Code Sample](code.png)
 
-The modified [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) context menu allows users to upload currently viewed images to **Azure Blob Storage**.
+This example fetches images asynchronously. The example uses the [UnboundSource](https://docs.devexpress.com/CoreLibraries/DevExpress.Data.UnboundSource) component to display loaded images in the WinForms GridControl:
 
-![alt text](menu.png)
+![WinForms Data Grid - DevExpress](grid.png)
+
+Users can use the customized context menu of the [PictureEdit](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.PictureEdit) context to upload images to **Azure Blob Storage**.
+
+![Customized Context Menu - WinForms Picture Editor](menu.png)
