@@ -14,7 +14,7 @@ This example demonstrates how to do the following:
 
 Follow the steps below to run the example:
 
-* Install the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs) NuGet package and follow step-by-step instructions from [Quickstart: Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet#download-blobs).
+* Install the [Azure.Storage.Blobs](https://www.nuget.org/packages/Azure.Storage.Blobs) NuGet package and follow step-by-step instructions from [Quickstart: Azure Blob storage client library v12 for .NET](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet#download-a-blob).
 * Specify connection settings in the `Main` method:
 
   ![Code Sample](code.png)
