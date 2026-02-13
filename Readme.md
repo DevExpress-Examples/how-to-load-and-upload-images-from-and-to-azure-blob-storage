@@ -27,7 +27,7 @@ Users can use the customized context menu of the [PictureEdit](https://docs.deve
 
 ![Customized Context Menu - WinForms Picture Editor](menu.png)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-load-and-upload-images-from-and-to-azure-blob-storage&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-load-and-upload-images-from-and-to-azure-blob-storage&~~~was_helpful=no)
 
